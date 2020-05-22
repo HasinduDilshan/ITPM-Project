@@ -117,7 +117,7 @@ translateY
 	display: block;
 }
 
-/*everything below here is just setting up the page, so dont worry about it */
+/*everything below here is just setting up the selecter and cal button, so dont worry about it */
 @media ( min-width : 768px) {
 	body {
 		background-color: blue;
@@ -126,16 +126,16 @@ translateY
 		color: black;
 	}
 	.page-title {
-		opacity: .75 !important;
+		opacity:5 !important;
 	}
 }
 
 body {
-  background-image: url("img/818.jpg");
+  background-image: url("img/0_Muwxx05bEPznYIO5.png");
 }
 
-
 </style>
+
 <script>
 	$(function() {
 		var str = '#len'; //increment by 1 up to 1-n elemnts
@@ -178,7 +178,7 @@ body {
 
 		<br>
 
-		<hr>
+
 		<div align=center class="form-group mt-3">
 			<p><b>Copy & Paste Your Code:</b></p>
 			<textarea  rows="10" cols="100" name="code" required></textarea>
@@ -200,9 +200,9 @@ body {
 		<hr>
 
 		<div class="hideDiv" style="margin: auto; width: 600px"
-			id="sizeFactor" style="margin: auto;width:600px">
+			id="sizeFactor" style="margin: auto; width: 600px">
 			<br>
-			<h5 align="center">Weight Related To The Size Factor</h5>
+			<h5 align="center">Complexity Due To The Size Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
 					<tr>
@@ -267,7 +267,7 @@ body {
 		<div class="hideDiv" style="margin: auto; width: 600px"
 			id="variableFactor">
 			<br>
-			<h5 align="center">Weight Related To The Variable Factor</h5>
+			<h5 align="center">Complexity Due To The Variable Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
 					<tr>
@@ -322,7 +322,7 @@ body {
 		<div class="hideDiv" style="margin: auto; width: 600px"
 			id="methodFactor">
 			<br>
-			<h5 align="center">Weight Related To The Method Factor</h5>
+			<h5 align="center">Complexity Due To The Method Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
 					<tr>
@@ -377,7 +377,7 @@ body {
 		<div class="hideDiv" style="margin: auto; width: 600px"
 			id="structureFactor">
 			<br>
-			<h5 align="center">Weight Related To The Control Structure
+			<h5 align="center">Complexity Due To The Control Structure
 				Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
@@ -437,7 +437,7 @@ body {
 		<div class="hideDiv" style="margin: auto; width: 600px"
 			id="inheritanceFactor">
 			<br>
-			<h5 align="center">Weight Related To The Inheritance Factor</h5>
+			<h5 align="center">Complexity Due To The Inheritance Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
 					<tr>
@@ -457,7 +457,7 @@ body {
 						</select></td>
 					</tr>
 					<tr>
-						<td>A class inheriting(direct or indirect) from one
+						<td>A class Inheriting(direct or indirect) from one
 							user-defined class</td>
 						<td><select class="form-control" name="Inheritance1">
 								<option value="0">0</option>
@@ -468,7 +468,7 @@ body {
 						</select></td>
 					</tr>
 					<tr>
-						<td>A class inheriting(direct or indirect) from two
+						<td>A class Inheriting(direct or indirect) from two
 							user-defined classes</td>
 						<td><select class="form-control" name="Inheritance2">
 								<option value="0">0</option>
@@ -479,7 +479,7 @@ body {
 						</select></td>
 					</tr>
 					<tr>
-						<td>A class inheriting(direct or indirect) from three
+						<td>A class Inheriting(direct or indirect) from three
 							user-defined classes</td>
 						<td><select class="form-control" name="Inheritance3">
 								<option value="0">0</option>
@@ -490,7 +490,7 @@ body {
 						</select></td>
 					</tr>
 					<tr>
-						<td>A class inheriting(direct or indirect) from more than
+						<td>A class Inheriting(direct or indirect) from more than
 							three user-defined classes</td>
 						<td><select class="form-control" name="Inheritance4">
 								<option value="0">0</option>
@@ -506,7 +506,7 @@ body {
 		<div class="hideDiv" style="margin: auto; width: 600px"
 			id="couplingFactor">
 			<br>
-			<h5 align="center">Weight Related To The Coupling Factor</h5>
+			<h5 align="center">Complexity Due To The Coupling Factor</h5>
 			<table class="table">
 				<thead class="thead-light">
 					<tr>
@@ -662,7 +662,7 @@ body {
 		</div>
 
 
-		<button type="submit" class="btn btn-primary" value="By Control">Run</button>
+		<button type="submit" class="btn btn-primary" value="By Control">Calculate</button>
 
 	</form>
 	<br/>
