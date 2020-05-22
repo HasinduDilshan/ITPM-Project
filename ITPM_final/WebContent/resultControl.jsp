@@ -38,7 +38,7 @@ th {
 	</thead>
 	<tbody>
 		<%
-			Control test3 = new Control();
+		Control test3 = new Control();
 		int condition= Integer.parseInt(session.getAttribute("condition").toString());
 		int loop = Integer.parseInt(session.getAttribute("loop").toString());
 		int switchCase= Integer.parseInt(session.getAttribute("switchCase").toString());
