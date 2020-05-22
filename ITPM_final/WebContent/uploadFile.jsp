@@ -187,7 +187,7 @@ body {
 
 		<select id="selectOption" name="selectFactor" onchange="setDiv()"
 			required>
-			<option value="">~Select~</option>
+			<option value="">**Select**</option>
 			<option value="size">Size Factor</option>
 			<option value="variable">Variable Factor</option>
 			<option value="method">Method Factor</option>
