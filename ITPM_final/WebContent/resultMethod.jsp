@@ -48,7 +48,6 @@ th {
 		          
           	int Cm = Wmrt+((methods.getPrimitive_parameters()*Integer.parseInt(session.getAttribute("methodPrimitiveData").toString()))+(methods.getComposite_parameters()*Integer.parseInt(session.getAttribute("methodCompositeData").toString())));
 			
-			
 		%>
 		<tr>
 			<td><%=methods.getLineNumber() %></td>
