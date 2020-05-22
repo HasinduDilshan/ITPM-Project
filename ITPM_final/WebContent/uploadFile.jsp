@@ -8,25 +8,11 @@
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
- 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <meta name="description" content="">
-    <meta name="author" content="templatemo">
-
-	<!-- Visual Admin Template-->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/templatemo-style.css" rel="stylesheet">
-    <link href="javaScript/javaScript.js/" rel="stylesheet">
-	
 
 <style>
 h1 {
 	text-align: center;
-	color: #4CAF50;
+	color: black;
 	font-size: 40px;
 	padding: 0px;
 }
@@ -194,7 +180,7 @@ body {
 
 		<hr>
 		<div align=center class="form-group mt-3">
-			<p>Copy & Paste Your Code:</p>
+			<p><b>Copy & Paste Your Code:</b></p>
 			<textarea  rows="10" cols="100" name="code" required></textarea>
 		</div>
 		<hr>
@@ -679,8 +665,9 @@ body {
 		<button type="submit" class="btn btn-primary" value="By Control">Run</button>
 
 	</form>
-
-
+	<br/>
+	<br/>
+	<br/>
 
 
 </body>
