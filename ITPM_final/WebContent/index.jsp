@@ -6,13 +6,13 @@
 <style type="text/css">
 h1 {
   text-align: center;
-  color: black;
+  color: #FFDEAD  ;
   font-size: 40px;
   padding:0px;
 } 
 .col-sm-101 {
   border-radiuns: 2px;
-  color: black;
+  color: ;
   padding: 10px 0px;
   text-align: center;
   font-size: 30px;
@@ -26,7 +26,8 @@ h1 {
 }
 
 body {
-  background-image: url("img/818.jpg");
+  background-image: url("img/8b7bc7c76af65bfa61d0f974409b3a17.jpg");
+
 }
 
 
@@ -44,7 +45,7 @@ body {
 	<ul>
 		<li class="col-sm-101"><a href="uploadFile.jsp">Click to Start</a></li>
 	</ul>
-	
 	</div>
+	
 </body>
 </html>
