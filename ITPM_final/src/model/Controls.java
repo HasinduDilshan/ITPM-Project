@@ -1,5 +1,5 @@
 package model;
-
+//Control structure 
 public class Controls {
 
 	int lineNumber,line_weight,no_of_control,cspps;
