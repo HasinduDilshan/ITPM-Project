@@ -73,7 +73,7 @@ h1 {
 			</div>
 			<nav class="templatemo-left-nav">
 			<ul>
-				<li><a href="home.jsp" class="active"><i
+				<li><a href="uploadFile.jsp" class="active"><i
 						class="fa fa-home fa-fw"></i>DashBoard </a></li>
 			</ul>
 			</nav>
@@ -82,12 +82,7 @@ h1 {
 		<div class="templatemo-content col-1 light-gray-bg">
 			<div class="templatemo-top-nav-container">
 				<div class="row">
-					<nav class="templatemo-top-nav col-lg-12 col-md-12">
-					<ul class="text-uppercase">
-						<li><a href="home.jsp">DashBoard</a></li>
-						<li><a href="Login.jsp">Sign out</a></li>
-					</ul>
-					</nav>
+			
 				</div>
 			</div>
 
@@ -98,26 +93,12 @@ h1 {
 					<br>
 
 					<div class="btn-group">
-						<a href="AddCode.jsp">
-							<button class="button">due to Size</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to Inheritance</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to Coupling</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to Control structures</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to Variables</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to Methods</button>
-						</a> <a href="AddCode.jsp">
-							<button class="button">due to All factors</button>
-						</a>
-					</div>
-				</div>
+						<a href="uploadFile.jsp">
+							<button class="button">Click to Start</button>
+						</a> 
 			</div>
 		</div>
 	</div>
-
+</div></div>
 </body>
 </html>
