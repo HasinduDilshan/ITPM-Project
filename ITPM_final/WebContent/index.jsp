@@ -26,7 +26,7 @@ h1 {
 }
 
 body {
-  background-image: url("img/8b7bc7c76af65bfa61d0f974409b3a17.jpg");
+  background-image: url("img/818.jpg");
 
 }
 
